@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Syncopate:700|Muli');
+
+body{
+	overflow-x: hidden;
+	background: #3F51B5;
+}
+
+.title {
+	font-family: 'Paytone One';
+	color: #fafafa;
+	font-size: 40px;
+}
+
+#container {
+	position: relative;
+	left: 33%;
+}
+
+#players-ul {
+	position: relative;
+	top: -40px;
+}
+
+#controls {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.control {
+	font-family: 'Muli';
+	border: solid 2px #fafafa;
+	color: #fafafa;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 5px;
+	transition: all 0.2s linear;
+}
+
+.control:hover {
+	cursor: pointer;
+	background: #fafafa;
+	color:  #3f5185;
+}
+
+#players-ul li {
+	letter-spacing: 2px;
+	font-family: 'Paytone One', sans-serif;
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	list-style: none;
+	margin: 5px 0px;
+	color: #fafafa;
+	transition: all .5s ease-out;
+}
